@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalpana Shah</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="logo.jpg" /></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-window-close" onclick="hidemenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="article.html">Article</a></li>
+          <li><a href="contact.html">Contact US</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <div class="textbox">
+      <h1>Kalpana Shah Saree Drapes</h1>
+    </div>
+  </section>
+  <!-- -----------------------gallery---------------------------------------------------------- -->
+  <section class="gallery">
+    <h1>Image Gallery</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nobis
+      totam fugit similique qui?
+    </p>
+    <div class="row1">
+      <div class="gallery-col">
+        <img src="Deepika-Padukone-draped-by-Kalpana-Shah-3.webp">
+        <div class="layer">
+          <h3>Deepika Padukone</h3>
+        </div>
+      </div>
+      <div class="gallery-col">
+        <img src="Juhi Chawla in Kalpana Shah's Drape! (1).jpg">
+        <div class="layer">
+          <h3>Juhi Chawla</h3>
+        </div>
+      </div>
+      <div class="gallery-col">
+        <img src="Katrina-Kaif-draped-by-Kalpana-Shah.webp">
+        <div class="layer">
+          <h3>Katrina Kaif</h3>
+        </div>
+      </div>
+  </section>
+  <!-- -----------------------videos---------------------------------------------------------- -->
+  <section class="videos">
+    <h1><u>Videos for help in styling by Kalpana Shah</u></h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nobis
+      totam fugit similique qui?
+    </p>
+    <div class="row">
+      <div class="videos-col">
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/F3V8DeeXjYY">
+        <iframe width="420" height="315" deesrc="https://www.youtube.com/embed/F3V8DeeXjYY">
+        </iframe>
+      </div>
+      <div class="videos-col">
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/Y0c73MkgC2w">
+        </iframe>
+
+      </div>
+      <div class="videos-col">
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/kmvcG825BHc">
+        </iframe>
+
+      </div>
+  </section>
+  <!-- -----------------------CALL TO ACTION---------------------------------------------------------- -->
+  <section class="saree">
+    <h1>About Saree:</h1>
+    <h2>
+      Historians have chronicled it and writers have attempted to capture its beauty and grace with their words. But no one embodies its essence the way the Indian woman does. The Saree - a simple swathe of fabric that enfolds a woman's body, at once seductive and demure. If legend is to believed it has existed for more than 5000 years.
+      Evolved from the prakrit word "sattika", traces of its existence date back to the Indus Valey Civilisation (2800-1800 BC) in the Sind and Punjab regions (todays Pakistan). The earliest depiction of a sari in the Indian subcontinent is the statue of an Indus Valley priest wearing a drape.
+      The sari finds mention in the ancient Tamil Literature - Silappadhikaram and Banabhatta's Kadambari. Both pieces of literature describe women in exquisite drapery - The Saree. Legend has it that the navel of the Supreme Being is considered to be the source of life and creativity and hence the midriff is to be left bare by the sari.
+      
+      Some costume historians believe that the Dhoti worn by men is the forerunner of the sari. Sculptures discovered from the Gandhara, Mathura and Gupta schools (1st-6th century AD) show statues wearing a "fishtail" version of the Dhoti which much like the sari covers the legs and forms elaborate folds in the front, like pleats of a sari.
+      
+      The history of the sari is long and mysterious. Styles and patterns of how we choose to cover ourselves have changed and evolved today. This supreme symbol of grace and dignity continues to be worn by women, young and old alike. The world over, it has come to symbolise all that is quintessentially Indian.
+    </h2>
+    <br>
+    <a href="contact.html" class="herobtn">CONTACT US</a>
+  </section>
+
+  <!-- -----------------------CALL TO ACTION---------------------------------------------------------- -->
+  <section class="social">
+    <h1>Social Media Links:</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius numquam culpa impedit fuga necessitatibus
+      voluptates <br> reprehenderit et quas aliquam excepturi eum harum totam, accusamus quam? Nisi dolorem saepe hic
+      repudiandae.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/KalpanaShahSariStylist"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/Kalpana__Shah"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.instagram.com/kalpana__shah/?igshid=YmMyMTA2M2Y%3D"><i class="fa fa-instagram"></i></a>
+      <a href="https://youtube.com/c/KlipartKreations"><i class="fa fa-youtube"></i></a>
+      <a href="https://pin.it/3aU2i0O"><i class="fa fa-pinterest"></i></a>
+    </div>
+  </section>
+  <section class="footer">
+    <p>© 2022 All Rights Reserved. Image May not be used without Permission.</p>
+  </section>
+  <!-- -----------------------JS FOR TOGGLE MENU---------------------------------------------------------- -->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showmenu() {
+      navlinks.style.right = "0px";
+    }
+    function hidemenu() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalpana Shah</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Limelight&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="logo.jpg" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-window-close" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="article.html">Articles</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+    </section>
+    <!-- ----------------------ABOUT US---------------------------------------------------------- -->
+    <section class="location">
+        <iframe src="https://maps.google.com/maps?q=Klipart%20Kreations%20Pvt.%20Ltd.%20P.O.%20Box%20No:%209344%20Mumbai%20400%20026%20India&t=&z=13&ie=UTF8&iwloc=&output=embed" width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Kalpana Shah
+                          Klipart Kreations Pvt. Ltd.</h5>
+                        <p>P.O. Box No: 9344</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>Mumbai 400 026
+                          India</h5>
+                    </span>
+                    </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>Email: info@klipart.biz / kalpana@kalpanashah.in</h5>
+                    </span>
+                    </div>
+            <form action="formhandler.php" method="Post"> 
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                <textarea rows="10" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="herobtn">Send Message</button>
+            </form>
+        </div> 
+    </section>
+    <!-- -----------------------CALL TO ACTION---------------------------------------------------------- -->
+    <section class="footercontact">
+      <h2>Social Media Links:</h2>
+      <div class="icons">
+        <a href="https://www.facebook.com/KalpanaShahSariStylist"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/Kalpana__Shah"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/kalpana__shah/?igshid=YmMyMTA2M2Y%3D"><i class="fa fa-instagram"></i></a>
+        <a href="https://youtube.com/c/KlipartKreations"><i class="fa fa-youtube"></i></a>
+        <a href="https://pin.it/3aU2i0O"><i class="fa fa-pinterest"></i></a>
+      </div>
+    </section>
+    <script>
+      var navlinks = document.getElementById("navlinks");
+
+      function showmenu() {
+        navlinks.style.right = "0px";
+      }
+      function hidemenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

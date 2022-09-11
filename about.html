@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Limelight&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-window-close" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="article.html">Articles</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1 class="about"><u>ABOUT:</u></h1>
+    </section>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1><u>Kalpana Shah</u></h1>
+          <p>Draping the oh-so-difficult-to-tame garment the Sari - is an art. An art mastered by the talent of Kalpana Shah. Over the years Kalpana's creative ways of draping the Sari, have won her an impressive list of clients.
+
+            Kalpana has dressed the crème de la crème of the glamour industry. She is “the” stylist to the stars, she has draped everyone from movie stars to super models, from the catwalk to page 3 parties.
+            
+            Her dearest wish is for the Indian woman to embrace her inheritance, her natural identity. And rather than struggle with it awkwardly, she would have every Indian woman wear with pride what she believes is a symbol of all that is graceful and beauteous - the eternally elegant Sari.
+            
+            Kalpana conducts Sari draping classes and workshops. She gives Sari demonstrations and attends Fashion Shows worldwide. She is also accessible for the NRI clientele.
+            
+            In her experience, Kalpana noticed that women have the misconception that a sari limits their mobility. But the key she finds is effective draping. Which is exactly what she sets out to accomplish in the form of her first Coffee Table Book, ‘The Whole 9 Yards’. By this Kalpana makes it possible for anyone to understand several draping styles. “I want women to know and experiment with different ways of draping a sari.” Whether it’s for a ritual ceremony or a cocktail party, Shah’s step-by-step recipes for sari draping are designed to be foolproof for anyone who wants to lay claim to “The Whole 9 Yards”. To get in touch with Kalpana for further information & appointments, Click here
+            
+            To buy your copy of “The Whole 9 Yards”, Click here
+          </p>
+          <a href="" class="herobtn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="about.jpg" />
+        </div>
+      </div>
+    </section>
+    <!-- -----------------------CALL TO ACTION---------------------------------------------------------- -->
+    <section class="footercontact">
+      <div class="icons">
+        <a href="https://www.facebook.com/KalpanaShahSariStylist"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/Kalpana__Shah"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/kalpana__shah/?igshid=YmMyMTA2M2Y%3D"><i class="fa fa-instagram"></i></a>
+        <a href="https://youtube.com/c/KlipartKreations"><i class="fa fa-youtube"></i></a>
+        <a href="https://pin.it/3aU2i0O"><i class="fa fa-pinterest"></i></a>
+      </div>
+    </section>
+    <script>
+      var navlinks = document.getElementById("navlinks");
+
+      function showmenu() {
+        navlinks.style.right = "0px";
+      }
+      function hidemenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
